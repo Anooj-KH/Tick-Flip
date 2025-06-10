@@ -1,7 +1,5 @@
-import React from "react";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import FlipUnit from "./FlipUnit";
-
 
 const FlipClock = () => {
     const [time, setTime] = useState(new Date());
@@ -23,21 +21,22 @@ const FlipClock = () => {
     const weekday = time.toLocaleDateString("en-US", { weekday: "long" });
 
     return (
-        <div className="flex items-center justify-center min-h-screen bg-black font-mono text-white px-6">
+        <div className="flex flex-col sm:flex-row items-center justify-center min-h-screen bg-black font-mono text-white px-4 sm:px-6 relative gap-8">
             {/* Center Stripe */}
             <div className="absolute top-[52%] left-0 w-full h-1 bg-black opacity-60 z-100" />
+
             {/* Hour Block */}
             <div
-                className="bg-[#1a1a1a] rounded-3xl px-6 py-4 mr-16 flex flex-col items-center shadow-lg cursor-pointer"
+                className="bg-[#1a1a1a] rounded-3xl px-4 py-3 sm:px-6 sm:py-4 flex flex-col items-center shadow-lg cursor-pointer sm:mr-10"
                 onClick={() => setIs24Hour(prev => !prev)}
             >
-                <div className="text-white text-lg font-semibold mb-1">{dateStr}</div>
+                <div className="text-white text-base sm:text-lg font-semibold mb-1">{dateStr}</div>
                 <FlipUnit value={is24Hour ? fullHours : hours} labelLeft={!is24Hour ? ampm : ""} />
             </div>
 
             {/* Minute Block */}
-            <div className="bg-[#1a1a1a] rounded-3xl px-6 py-4 flex flex-col items-center shadow-lg">
-                <div className="text-white text-xl font-semibold mb-1">{weekday}</div>
+            <div className="bg-[#1a1a1a] rounded-3xl px-4 py-3 sm:px-6 sm:py-4 flex flex-col items-center shadow-lg">
+                <div className="text-white text-base sm:text-xl font-semibold mb-1">{weekday}</div>
                 <FlipUnit value={minutes} labelRight={seconds} />
             </div>
         </div>
