@@ -21,7 +21,7 @@ A modern and animated flip clock built using **React + Vite** and **Framer Motio
 ### Desktop View
 ![flip-clock-preview](/src/assets/web%20view.png)
 ### Mobile View
-![flip-clock-preview](/src/assets/mobile%20view.png)
+![flip-clock-preview](/src/assets/mobileview.png)
 
 ---
 
