@@ -1,6 +1,7 @@
-![App Screenshot](./src//assets//TickFlip%20Logo.png)
-
-# TickFlip 
+<p >
+  <img src="./src/assets/TickFlip%20Logo.png" alt="TickFlip Logo" height="50"/>
+  <h1>TickFlip</h1>
+</p>
  
 A modern and animated flip clock built using **React + Vite** and **Framer Motion**. This sleek, minimalist time display features real-time updates, AM/PM toggle, and a clean UI suitable for both web and mobile.
 
