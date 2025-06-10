@@ -1,12 +1,53 @@
-# React + Vite
+![App Screenshot](./src//assets//TickFlip%20Logo.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# TickFlip 
+ 
+A modern and animated flip clock built using **React + Vite** and **Framer Motion**. This sleek, minimalist time display features real-time updates, AM/PM toggle, and a clean UI suitable for both web and mobile.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⏱ Real-time clock with animated number flips
+- 🌓 Toggle between **12-hour** and **24-hour** formats by clicking the hour card
+- 🗓 Shows current date and day
+- 💡 Smooth AM/PM transitions
+- 📱 Responsive layout (can be converted to PWA for mobile use)
+- ⚡ Built with **React** + **Framer Motion**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Preview
+
+![flip-clock-preview](/src/assets/preview%20(1).png)
+![flip-clock-preview](/src/assets/preview%20(2).png)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/flip-clock.git
+cd flip-clock 
+```
+###  2. Install Dependencies
+
+```bash
+npm install
+```
+
+###  2. Run the App
+```bash
+npm start
+```
+### Open your browser at http://localhost:5173.
+
+## Tech Stack
+- **React**
+- **Framer Motion**
+- **Tailwind CSS**
+
+## 📱 Future Ideas
+- Add alarm functionality
+- Make fully installable as PWA
+- Support multiple timezones
