@@ -1,5 +1,5 @@
 <p >
-  <img src="./src/assets/TickFlip%20Logo.png" alt="TickFlip Logo" height="50"/>
+  <img src="./src/assets/TickFlip%20Logo.png" alt="TickFlip Logo" height="80"/>
   <h1>TickFlip</h1>
 </p>
  
