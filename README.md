@@ -18,8 +18,10 @@ A modern and animated flip clock built using **React + Vite** and **Framer Motio
 
 ## 📸 Preview
 
-![flip-clock-preview](/src/assets/preview%20(1).png)
-![flip-clock-preview](/src/assets/preview%20(2).png)
+### Desktop View
+![flip-clock-preview](/src/assets/web%20view.png)
+### Mobile View
+![flip-clock-preview](/src/assets/mobile%20view.png)
 
 ---
 
