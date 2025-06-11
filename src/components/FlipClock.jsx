@@ -23,7 +23,7 @@ const FlipClock = () => {
     return (
         <div className="flex flex-col sm:flex-row items-center justify-center min-h-screen bg-black font-mono text-white px-4 sm:px-6 relative gap-8">
             {/* Center Stripe */}
-            <div className="absolute top-[52%] left-0 w-full h-1 bg-black opacity-60 z-100" />
+            <div className="absolute top-[52%] left-0 w-290 h-1 bg-black opacity-60 z-100" />
 
             {/* Hour Block */}
             <div

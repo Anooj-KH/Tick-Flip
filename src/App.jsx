@@ -3,8 +3,12 @@ import FlipClock from "./components/FlipClock";
 import "./index.css";
 
 function App() {
-  
-  return <FlipClock />;
+
+  return (
+    <>
+      <FlipClock />
+    </>
+  )
 }
 
 export default App;
